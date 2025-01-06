@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0dccfee-a151-4924-a464-4c6b479f93ef">
+  <producedTypes>
+    <selectionType typeId="952f5b3b-093a-4f15-8808-84ed93533d3f" valueTypeId="67e7c5c0-85ef-413c-afe6-1cd8af768e12"/>
+    <listType typeId="1349ebf4-5dcd-4213-953e-9e935e57f655" valueTypeId="2d0461cc-aba6-40d5-b470-b7c7471b7e19"/>
+    <managerType typeId="468dd1c7-66b2-47b3-843c-31e942e8ead1" valueTypeId="1662d7b9-dc20-46c8-b469-ca9cf4c33da7"/>
+    <recordSetType typeId="fe6f9048-6bfc-46a6-9526-9e815d78545a" valueTypeId="9f9a7d9e-dd4c-4d11-8bab-efdeab9227dc"/>
+    <recordKeyType typeId="43df53d2-e3b8-4aae-8c46-76e457c2ffb8" valueTypeId="23924d4a-b97a-4e63-a9ad-53e4b6294452"/>
+    <recordType typeId="54b1340d-8f09-423e-8857-246f69e81f5d" valueTypeId="7029d09d-9235-4e57-8f5e-a435d70ecd1d"/>
+    <recordManagerType typeId="c71ea22f-e4bb-48d9-8c01-778289c24874" valueTypeId="3e8f5901-8aeb-49dd-abe4-537b99797ec5"/>
+  </producedTypes>
+  <name>ВКМ_КоличествоДнейОтпускаПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней отпуска план</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="87a96ab6-0c40-438b-9028-a4ca8eb1bb66">
+    <name>ДнейОтпускаПлан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней отпуска план</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b03ccf9d-825c-42e4-9c4f-5d74570fc4a0">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Специалисты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

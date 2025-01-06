@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb6e7f24-25e5-49fb-bd1a-7375675ac78d">
+  <name>ВКМ_РегламентноеЗаданиеОтправкиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентное задание отправки сообщений</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

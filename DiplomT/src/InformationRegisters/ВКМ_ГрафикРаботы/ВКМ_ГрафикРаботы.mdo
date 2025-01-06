@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="656d8e70-b5c5-4ecf-bd33-c8221c28edf3">
+  <producedTypes>
+    <selectionType typeId="f0b016a5-dbf7-43a6-b524-6dbe169331b3" valueTypeId="630e6312-f66a-437a-a65a-616e819d00fd"/>
+    <listType typeId="5b9126ba-f2a7-444d-b612-503f1ccae8d9" valueTypeId="da591e73-456d-4c2c-ac1a-279e0a7512d1"/>
+    <managerType typeId="da779cfc-0489-4b07-a055-07b3ba37147e" valueTypeId="42596740-63fc-43a2-bdca-fc8f7cf7bce1"/>
+    <recordSetType typeId="7446e824-9c6b-4ea3-b23d-1904f5a2bcf1" valueTypeId="192a0cd3-d988-4fcc-9fd2-657583451931"/>
+    <recordKeyType typeId="7c923b33-e0ca-4d41-ac9c-e9ae81af09ff" valueTypeId="f112b5a0-27b4-4a28-b1db-17c57a2b2d5a"/>
+    <recordType typeId="275caeb2-3569-4e14-8ef8-17b211589291" valueTypeId="5dff1d29-17c1-4aec-9da1-c2cad54b5b29"/>
+    <recordManagerType typeId="e8c9cace-dbf7-4bd7-8e85-f707031b88dd" valueTypeId="586162ac-1f08-4eae-b1a4-77375ec92b5b"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>График работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="68f68ba4-e639-415c-991f-f7eba7de375a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7493bf67-8b86-49c2-8d1c-cf702ae87d0a">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

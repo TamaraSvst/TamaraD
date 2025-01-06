@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0714ec5-cce3-4523-b848-67f39a14b4f3">
+  <name>TelegramBots</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram bots</value>
+  </synonym>
+  <rootURL>bots</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="514234c5-644b-4f00-9094-3d8f9c1eda6b">
+    <name>Telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="cf6e0690-5547-4c14-a506-057e08dc8045">
+      <name>Get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>TelegramGet</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="58b67fec-f37d-4f06-aafe-15b72c1b6733">
+    <name>PostM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Post M</value>
+    </synonym>
+    <template>/send</template>
+    <methods uuid="5bcaaf07-b7ec-4752-9958-d6143684c04d">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PostMPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

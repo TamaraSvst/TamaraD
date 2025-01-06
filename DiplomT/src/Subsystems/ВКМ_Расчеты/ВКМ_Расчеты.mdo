@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e60d5576-7013-43a2-a419-275157670b58">
+  <name>ВКМ_Расчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_НачислениеЗаработнойПлаты</content>
+  <content>Document.ВКМ_НачислениеФиксированныхПремий</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
+  <content>InformationRegister.ВКМ_КоличествоДнейОтпускаПлан</content>
+  <content>AccumulationRegister.ВКМ_ВыполненыеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>AccumulationRegister.ВКМ_Взаиморасчеты</content>
+  <content>AccumulationRegister.ВКМ_КоличествоДнейОтпуска</content>
+  <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
+  <content>CalculationRegister.ВКМ_ДополнительныеНачисления</content>
+  <content>CalculationRegister.ВКМ_Удержания</content>
+</mdclass:Subsystem>
