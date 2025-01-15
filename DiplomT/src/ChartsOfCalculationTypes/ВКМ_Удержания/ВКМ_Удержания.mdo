@@ -45,9 +45,11 @@
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
       <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияЗаРаботу</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</leading>
       <leading>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</leading>
       <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияЗаРаботу</leading>
+      <leading>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</leading>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
